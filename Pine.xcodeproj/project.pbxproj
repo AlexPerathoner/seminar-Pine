@@ -90,6 +90,7 @@
 		A1FB7AA22227EEEF00DC2E0E /* PreferencesSwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB7AA12227EEEF00DC2E0E /* PreferencesSwitchButton.swift */; };
 		A1FB7AA52227F5B100DC2E0E /* MarkdownStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB7AA42227F5B100DC2E0E /* MarkdownStackView.swift */; };
 		A1FD269A20932CDD004D1C95 /* highlight-js in Resources */ = {isa = PBXBuildFile; fileRef = A1FD269820932CDC004D1C95 /* highlight-js */; };
+		E7541FA16EC965E16770F753 /* Pods_Pine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66B7DAE689A6827E658233B /* Pods_Pine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F34580B873BD2CCD033F53B /* Pods_Pine.framework in Frameworks */,
+				E7541FA16EC965E16770F753 /* Pods_Pine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,15 +724,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pine/Pods-Pine-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Highlightr/Highlightr.framework",
-				"${BUILT_PRODUCTS_DIR}/cmark-gfm-swift/cmark_gfm_swift.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pine/Pods-Pine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Highlightr.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cmark_gfm_swift.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pine/Pods-Pine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
